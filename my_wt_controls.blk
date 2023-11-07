@@ -67,6 +67,7 @@ controls{
       keyboardKey:i=184
     }
 
+    ID_COLLAPSE_ACTION_BAR{}
     ID_COMMANDER_AIM_MODE{
       keyboardKey:i=41
     }
@@ -156,6 +157,11 @@ controls{
       keyboardKey:i=33
     }
 
+    ID_GEAR_HELICOPTER{
+      keyboardKey:i=56
+      keyboardKey:i=33
+    }
+
     ID_GUIDED_BOMBS{
       keyboardKey:i=57
     }
@@ -183,6 +189,10 @@ controls{
 
     ID_LOCK_TARGETING_AT_POINT{
       keyboardKey:i=5
+    }
+
+    ID_LOCK_TARGETING_AT_POINT_HELICOPTER{
+      keyboardKey:i=34
     }
 
     ID_PLANE_NIGHT_VISION{
@@ -307,7 +317,8 @@ controls{
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
-      mouseButton:i=2
+      keyboardKey:i=56
+      keyboardKey:i=19
     }
 
     ID_SENSOR_TARGET_SWITCH{
@@ -383,6 +394,10 @@ controls{
 
     ID_SQUAD_TARGET_DESIGNATION{
       keyboardKey:i=44
+    }
+
+    ID_START_SUPPORT_PLANE{
+      keyboardKey:i=58
     }
 
     ID_SUSPENSION_PITCH_DOWN{
@@ -482,7 +497,7 @@ controls{
 
     ID_UNLOCK_TARGETING_AT_POINT_HELICOPTER{
       keyboardKey:i=56
-      keyboardKey:i=33
+      keyboardKey:i=34
     }
 
     ID_VOICE_MESSAGE_5{
@@ -603,6 +618,14 @@ controls{
       keyboardKey:i=12
     }
 
+    vtol_rangeMax{
+      keyboardKey:i=209
+    }
+
+    vtol_rangeMin{
+      keyboardKey:i=201
+    }
+
     weapon_aim_heading_rangeMax{
       keyboardKey:i=205
     }
@@ -672,7 +695,7 @@ controls{
     }
 
     vtol{
-      relSens:r=0.49
+      relStep:r=0.5
     }
 
     weapon_aim_heading{
