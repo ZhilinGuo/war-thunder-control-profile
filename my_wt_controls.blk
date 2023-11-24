@@ -441,6 +441,16 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_THERMAL_WHITE_IS_HOT{
+      keyboardKey:i=56
+      keyboardKey:i=7
+    }
+
+    ID_THERMAL_WHITE_IS_HOT_HELI{
+      keyboardKey:i=56
+      keyboardKey:i=7
+    }
+
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER{
       keyboardKey:i=48
     }
@@ -455,6 +465,11 @@ controls{
 
     ID_TOGGLE_GM_CROSSHAIR_LIGHTING{
       keyboardKey:i=38
+    }
+
+    ID_TOGGLE_LASER_DESIGNATOR{
+      keyboardKey:i=56
+      keyboardKey:i=4
     }
 
     ID_TOGGLE_LASER_DESIGNATOR_HELICOPTER{
@@ -488,7 +503,8 @@ controls{
     }
 
     ID_UNLOCK_TARGETING{
-      keyboardKey:i=6
+      keyboardKey:i=56
+      keyboardKey:i=34
     }
 
     ID_UNLOCK_TARGETING_AT_POINT{
