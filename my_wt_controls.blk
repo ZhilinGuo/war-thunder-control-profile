@@ -26,14 +26,6 @@ controls{
       keyboardKey:i=4
     }
 
-    ID_AIR_BRAKE{
-      keyboardKey:i=35
-    }
-
-    ID_AIR_BRAKE{
-      mouseButton:i=3
-    }
-
     ID_ATGM_HELICOPTER{
       keyboardKey:i=10
     }
@@ -57,10 +49,6 @@ controls{
 
     ID_CAMERA_COMMANDER{
       keyboardKey:i=47
-    }
-
-    ID_CHANGE_SHOT_FREQ_HELICOPTER{
-      keyboardKey:i=19
     }
 
     ID_CHUTE{
@@ -124,16 +112,8 @@ controls{
       keyboardKey:i=10
     }
 
-    ID_FIRE_PRIMARY{
-      mouseButton:i=0
-    }
-
     ID_FIRE_PRIMARY_HELICOPTER{
       mouseButton:i=0
-    }
-
-    ID_FIRE_SECONDARY{
-      keyboardKey:i=57
     }
 
     ID_FIRE_SECONDARY_HELICOPTER{
@@ -166,12 +146,16 @@ controls{
       keyboardKey:i=57
     }
 
+    ID_GUIDED_BOMBS_HELICOPTER{
+      keyboardKey:i=4
+    }
+
     ID_GUIDED_BOMBS_LOCK{
       keyboardKey:i=4
     }
 
     ID_HELI_GUNNER_NIGHT_VISION{
-      keyboardKey:i=7
+      mouseButton:i=3
     }
 
     ID_IGNITE_BOOSTERS{
@@ -196,7 +180,7 @@ controls{
     }
 
     ID_PLANE_NIGHT_VISION{
-      keyboardKey:i=7
+      mouseButton:i=3
     }
 
     ID_PTT{}
@@ -209,11 +193,7 @@ controls{
       keyboardKey:i=19
     }
 
-    ID_RESIZE_SECONDARY_WEAPON_SERIES{
-      keyboardKey:i=56
-      keyboardKey:i=19
-    }
-
+    ID_RESIZE_SECONDARY_WEAPON_SERIES{}
     ID_ROCKETS{
       keyboardKey:i=10
     }
@@ -259,60 +239,31 @@ controls{
       keyboardKey:i=3
     }
 
-    ID_SENSOR_ACM_SWITCH{
-      keyboardKey:i=81
-    }
-
-    ID_SENSOR_ACM_SWITCH_TANK{
-      keyboardKey:i=81
-    }
-
-    ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=80
-    }
-
-    ID_SENSOR_MODE_SWITCH_TANK{
-      keyboardKey:i=80
-    }
-
-    ID_SENSOR_RANGE_SWITCH{
-      keyboardKey:i=77
-    }
-
-    ID_SENSOR_RANGE_SWITCH_TANK{
-      keyboardKey:i=77
-    }
-
-    ID_SENSOR_SCAN_PATTERN_SWITCH{
-      keyboardKey:i=75
-    }
-
-    ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
-      keyboardKey:i=75
-    }
-
+    ID_SENSOR_ACM_SWITCH{}
+    ID_SENSOR_MODE_SWITCH{}
+    ID_SENSOR_RANGE_SWITCH{}
+    ID_SENSOR_SCAN_PATTERN_SWITCH{}
     ID_SENSOR_SWITCH{
-      keyboardKey:i=82
+      keyboardKey:i=56
+      keyboardKey:i=19
     }
 
-    ID_SENSOR_SWITCH_TANK{
-      keyboardKey:i=82
+    ID_SENSOR_SWITCH_HELICOPTER{
+      keyboardKey:i=56
+      keyboardKey:i=19
     }
 
-    ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=76
-    }
-
+    ID_SENSOR_SWITCH_TANK{}
     ID_SENSOR_TARGET_LOCK{
       keyboardKey:i=19
     }
 
     ID_SENSOR_TARGET_LOCK_HELICOPTER{}
-    ID_SENSOR_TARGET_LOCK_SHIP{
-      keyboardKey:i=76
+    ID_SENSOR_TARGET_LOCK_HELICOPTER{
+      keyboardKey:i=19
     }
 
-    ID_SENSOR_TARGET_LOCK_TANK{
+    ID_SENSOR_TARGET_LOCK_SHIP{
       keyboardKey:i=76
     }
 
@@ -322,21 +273,17 @@ controls{
     }
 
     ID_SENSOR_TARGET_SWITCH{
-      keyboardKey:i=72
+      keyboardKey:i=56
+      keyboardKey:i=20
     }
 
-    ID_SENSOR_TARGET_SWITCH_TANK{
-      keyboardKey:i=72
+    ID_SENSOR_TARGET_SWITCH_HELICOPTER{
+      keyboardKey:i=56
+      keyboardKey:i=20
     }
 
-    ID_SENSOR_TYPE_SWITCH{
-      keyboardKey:i=79
-    }
-
-    ID_SENSOR_TYPE_SWITCH_TANK{
-      keyboardKey:i=79
-    }
-
+    ID_SENSOR_TARGET_SWITCH_TANK{}
+    ID_SENSOR_TYPE_SWITCH{}
     ID_SENSOR_VIEW_SWITCH{
       keyboardKey:i=77
     }
@@ -410,6 +357,16 @@ controls{
 
     ID_SWEEP_MODE{
       keyboardKey:i=157
+    }
+
+    ID_SWITCH_SHOOTING_CYCLE_COUNTER_MEASURE{
+      keyboardKey:i=56
+      keyboardKey:i=45
+    }
+
+    ID_SWITCH_SHOOTING_CYCLE_COUNTER_MEASURE_HELICOPTER{
+      keyboardKey:i=56
+      keyboardKey:i=45
     }
 
     ID_SWITCH_SHOOTING_CYCLE_PRIMARY{
